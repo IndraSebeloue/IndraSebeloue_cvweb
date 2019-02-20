@@ -1,0 +1,376 @@
+/*reset*/
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    padding: 0px 200px 0px 200px;
+}
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 100px;
+    font-variant: small-caps;
+    font-weight: bold;
+    background-color: black;
+    color: #ffff;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-size: 35px;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #ffff;
+}
+
+h3 {
+  font-family: 'Poiret One', cursive;
+  font-size: 25px;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #fff;
+  background-color: black;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Muli', sans-serif;
+  font-size: 30px;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+  	text-align: justify;
+  	padding-right: 20px;
+    font-size: 1vw;
+}
+/*MENU*/
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-family: 'Muli', sans-serif;
+  font-size: 1vw;
+}
+
+#menu {
+  padding: 10px;
+  margin: 0;
+  background-color: black;
+  color: #fff;
+  width: 120px;
+  position: fixed;
+  right: 15px;
+}
+
+#menu li {
+  height: 150px;
+  line-height: 120px;
+  text-align: center;
+}
+
+#menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.liste li {
+  opacity: 0;
+}
+
+/*LOGO TO TOP*/
+#logoimage {
+  position: fixed;
+  left: 70px;
+  top: 20px;
+  z-index: 999;
+}
+
+/*HEADER*/
+header {
+  padding: 5px 0 5px 10px;
+  background-color: black;
+}
+
+.header_container{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;;
+}
+
+.letters {
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #ffff;
+}
+
+header p {
+  font-family: 'Poiret One', cursive;
+  font-size: 25px;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #ffff;
+}
+
+#headersocialnetwork {
+  padding: 30px 0px 30px 0px;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#headersocialnetwork a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 20px 0px 20px;
+} 
+
+#headersocialnetwork a:hover {
+  color: rgba(56, 173, 169,0.6);
+  text-decoration: none;
+  padding: 0px 20px 0px 20px;
+}
+
+/*PRESENTATION*/
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.introduction p {
+    color: #ffff;
+    background-color: rgba(56, 173, 169,0.6);
+    padding: 20px;
+}
+
+.introimg {
+  width: 200px;
+  height: 200px;
+}
+
+/*MES DIFFERENTS LIENS*/
+figure {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+figure figcaption {
+  position: absolute;
+  top: 0;
+  padding: 40px;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  font-weight: bold;
+}
+
+.hrfigcaption {
+  margin: 0;
+  border: none;
+  height: 5px;
+  background-color:  rgba(56, 173, 169,0.6);
+  width: 60%;
+  transition-duration: 1000ms;
+}
+
+figure figcaption p {
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+figure figcaption a {
+  font-size: 50px;
+  color:  rgba(56, 173, 169,0.6);
+}
+
+.bloggit {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+}
+
+.imgbloggit{
+  width: 100%;
+  padding-bottom: 17px;
+}
+
+.imgbloggit:hover {
+  opacity: 0.5;
+}
+
+/*CHAQUE CONTAINER*/
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*EXPERIENCES PROFESSIONNELLES*/
+.expro {
+  padding: 0 10px 0 10px;
+	display: flex;
+	flex-direction: column;
+  width: 24%;
+  background-color: rgba(56, 173, 169,0.6);
+  opacity: 0;
+}
+
+/*FORMATION*/
+.formation {
+  min-width: 300px;
+  padding: 0 10px 0 10px;
+	display: flex;
+	flex-direction: column;
+  background-color: rgba(56, 173, 169,0.6);
+  opacity: 0;
+}
+
+/*COMPETENCEES*/
+#skillsoutils {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btnskills {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.btnToLeft {
+  margin: 70px 0px 70px 0px;
+}
+
+.btnToCenter {
+  margin: 70px auto;
+  transition-duration: 3000ms;
+}
+
+.btntitle {
+  font-family: 'Poiret One', cursive;
+  font-size: 35px;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #ffff;
+  text-align: center;
+  padding-top: 43%;
+}
+
+/*PHOTOGRAPHIE*/
+.hobbies {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hobbies img {
+  padding: 10px 20px 10px 20px;
+  width: 27%;
+  height: 27%;
+}
+
+#lienflickr {
+  padding: 30px 0px 30px 0px;
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#lienflickr a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 20px 0px 20px;
+}
+
+#lienflickr a:hover {
+  text-decoration: none;
+  padding: 0px 20px 0px 20px;
+  color: rgba(56, 173, 169,0.6);
+}
+
+.imgphoto:hover {
+  opacity: 0.7;
+}
+
+/*FOOTER*/
+#socialnetwork {
+  padding: 30px 0px 30px 0px;
+  color: #ffff;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#socialnetwork a {
+  color: #ffff;
+  text-decoration: none;
+  padding: 0px 20px 0px 20px;
+}
+
+#socialnetwork a:hover {
+  color: rgba(56, 173, 169,0.6);
+  text-decoration: none;
+  padding: 0px 20px 0px 20px;
+}
+
+footer {
+  margin-top: 100px;
+  padding-bottom: 50px;
+  background-color: black;
+}
+
+.titlecitefooter h3{
+  margin:0;
+  padding: 50px 0px 0px 0px;
+  font-size: 50px;
+}
+
+.titlecitefooter p{
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+footer hr{
+  width: 60%;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+}
+
+.footerend {
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+  color: #ffff;
+}
+
+#footend {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#footend a {
+  color: #ffff;
+}
